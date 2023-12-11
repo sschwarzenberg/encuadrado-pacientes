@@ -1,8 +1,7 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +9,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6, .MuiTypography-root, .MuiChip-root, .MuiButton-root {
+  font-family: 'Poppins', sans-serif !important;
+  color: #2A333D;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #212121;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #fff;
+
+}
+
+.sidebar {
+  color: gray;
+  border-right: lightgray 1px solid;
+  height:100vh;
+
+}
+.sidebar .MuiList-root {
+  min-width: 150px;
+  padding: 2rem 0;
+}
+
+.sidebar .MuiList-root .MuiTypography-root {
+  padding: 0 4rem;
+}
+
+
+.sidebar a {
+  text-decoration: none;
+  color: gray;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 2rem 4rem; /* Adjust padding as needed */
+  padding-right: 8rem;
+}
+
+.css-p1pqv6-MuiPaper-root-MuiCard-root {
+  border-radius: 15px !important;
+}
+
+.debt-snackbar {
+  max-height: 350px;
+  overflow: scroll;
+}
+
+.debt-snackbar .MuiButtonBase-root{
+  background-color: #fff !important;
+  border-radius: 100px !important;
+}
+.appointments{
+  margin: 0 5rem;
+}
+
+.professiona-card-long {
+  text-decoration: none !important;
 }
